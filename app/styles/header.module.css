@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background: black;
+  box-shadow: 0 0 0.5rem #5181c0;
+}
+
+.header img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem #5181c0;
+}
+.header a {
+  flex: 1;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+.navigation {
+  flex: 1;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.active {
+  box-shadow: 0 0 0.5rem #5181c0;
+  background-color: #5181c0;
+  padding: 1rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+.header {
+  gap: 3rem;
+  margin: 3rem auto 5rem auto;
+  width: 90%;
+  max-width: 75rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.software {
+  background: #5181c0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main {
+  width: 80%;
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.projects li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects img {
+  box-shadow: 0 0 0.5rem #5181c0;
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.projects p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
