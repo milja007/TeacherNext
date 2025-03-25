@@ -1,9 +1,9 @@
 "use client";
 
 import styles from "@/app/styles/share.module.css";
-import ImagePicker from "@/app/components/header/teachers/image-picker";
+import ImagePicker from "@/components/header/teachers/image-picker";
 import shareTeacher from "@/lib/form.action";
-import FormSubmit from "@/app/components/header/teachers/form-submit";
+import FormSubmit from "@/components/header/teachers/form-submit";
 //for accesing message
 //Ako je jaci error mozes i throw an error pa te redirects na drugi nearest error page
 //useactionstate ili bivsi useformstate je bolja praksa i bolji scaleability

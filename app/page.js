@@ -1,4 +1,4 @@
-import SlideShow from "./components/header/slide/slide";
+import SlideShow from "../components/header/slide/slide";
 import styles from "./page.module.css";
 import Link from "next/link";
 

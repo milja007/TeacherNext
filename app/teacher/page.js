@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "@/app/styles/main-teacher.module.css";
-import Teacher from "../components/header/teachers/teacher";
+import Teacher from "../../components/header/teachers/teacher";
 const TeacherPage = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const TeacherPage = () => {
         <Link href="/teacher/share"> Recommend a New Teacher</Link>
       </header>
       <main>
-      <Teacher />
+        <Teacher />
       </main>
     </>
   );
